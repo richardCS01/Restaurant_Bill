@@ -1,7 +1,11 @@
 #include<time.h>
 #include <stdlib.h>
 #include<stdio.h>
-
+/*
+I will store the food price options in an array.
+Then i will ask for tax and tip amount.
+After i will do some calculations to get the tax and tip amount then return the total bill amount to the user.
+*/
 int main() {
   float costs[] = {9.95, 4.55, 13.25, 22.35};
   srand(time(NULL));
